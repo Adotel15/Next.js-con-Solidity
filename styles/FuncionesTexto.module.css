@@ -1,0 +1,44 @@
+.textoContrato p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FFA600;
+    text-align: center;
+}
+
+.formulario {
+    display: block;
+}
+
+.formulario input {
+    margin-bottom: 10px;
+
+    
+}
+
+.texto {
+    margin-top: 10px;
+    display: flex;
+    border-radius: 4px;
+    padding: 0.7rem;
+    width: 450px;
+}
+
+.boton {
+    background-color:#12C5FF;
+    text-align: center;
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 12px;
+    width: 250px;
+    border: 1px solid black;
+    font-weight: 600;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}

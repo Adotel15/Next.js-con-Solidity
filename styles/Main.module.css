@@ -1,0 +1,49 @@
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #008FBD;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contenido {
+    display: grid;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    margin-bottom: 8rem;
+}
+
+.contenido p {
+    font-size: 1rem;
+}
+
+.contenido button {
+    background-color:#12C5FF;
+    text-align: center;
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 12px;
+    width: 250px;
+    border: 1px solid black;
+    font-weight: 600;
+}
+
+.contenido button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+  }
+
+  .contenido h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
