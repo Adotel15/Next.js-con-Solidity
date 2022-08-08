@@ -2,7 +2,6 @@
     font-size: 1.2rem;
     font-weight: 600;
     color: #FFA600;
-    text-align: center;
 }
 
 .formulario {
@@ -11,8 +10,6 @@
 
 .formulario input {
     margin-bottom: 10px;
-
-    
 }
 
 .texto {
@@ -20,7 +17,7 @@
     display: flex;
     border-radius: 4px;
     padding: 0.7rem;
-    width: 450px;
+    width: 250px;
 }
 
 .boton {

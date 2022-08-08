@@ -1,7 +1,6 @@
 .contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
-    width: 90%;
+    max-width: 70rem;
+    margin: auto;
 }
 
 .titulo {
@@ -9,14 +8,12 @@
     font-weight: 600;
     color: #008FBD;
     text-align: center;
-    margin-top: 3rem;
 }
 
 .contenido {
     display: grid;
-    margin-left: 13rem;
-    margin-right: 13rem;
-    margin-bottom: 8rem;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
 }
 
 .contenido p {
@@ -45,5 +42,14 @@
 
   .contenido h2 {
     font-size: 1.5rem;
+  }
+
+  .contenido h2 :last-of-type{
     text-align: center;
+  }
+
+  .funciones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }

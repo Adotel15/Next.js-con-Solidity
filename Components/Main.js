@@ -79,14 +79,15 @@ const Main = () => {
 
             <div>
                 <h2>Llamar a las funciones del Smart Contract</h2>
+                <div className = {Styles.funciones}>
+                    <FuncionesTexto
+                        contrato = {contrato}
+                    />
 
-                <FuncionesTexto
-                    contrato = {contrato}
-                />
-
-                <FuncionesContador
-                    contrato = {contrato}
-                />
+                    <FuncionesContador
+                        contrato = {contrato}
+                    />
+                </div>
             </div>
             </div>
         </div>

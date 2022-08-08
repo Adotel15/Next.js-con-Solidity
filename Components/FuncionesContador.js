@@ -47,7 +47,7 @@ const FuncionesContador = ({ contrato }) => {
                     <Temporizador
                         tiempo = {6}
                     />
-                    <p> {contador} </p>
+                    <p> {`Vamos por el número ${contador} !`} </p>
                 </div>)
                 }
 
